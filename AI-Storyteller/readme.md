@@ -1,4 +1,4 @@
-### 🎨 Bonus: AI Storyteller
+### 🎨 AI Storyteller:
 
 A complete **mini-project** built using LangChain components and deployed as an interactive **Streamlit** web application. The AI Storyteller generates creative, engaging stories based on user-provided prompts, genre, and tone preferences.
 
