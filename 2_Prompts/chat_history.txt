@@ -1,0 +1,4 @@
+Human: Hello, I have a problem with my recent order.
+AI: Hello! I'm sorry to hear that. Could you please provide your order ID?
+Human: My order ID is #12345. I haven't received my refund yet.
+AI: Thank you. I can see that your refund was processed yesterday. It might take 3-5 business days to reflect in your account.

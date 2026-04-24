@@ -1,0 +1,37 @@
+# Core
+langchain
+langchain-core
+python-dotenv
+
+# LLM Providers
+langchain-openai
+openai
+langchain-anthropic
+langchain-groq
+groq
+langchain-google-genai
+google-generativeai
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Embeddings & Vector Stores
+langchain-community
+chromadb
+faiss-cpu
+sentence-transformers
+
+# RAG & Document Processing
+pymupdf
+pdfplumber
+pypdf
+
+# Text & Math
+numpy
+scikit-learn
+
+# Projects
+streamlit
+
+# Agents & Memory
+langgraph

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450">
+  <style>
+    .box { rx: 10; ry: 10; stroke-width: 1.5; }
+    .text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #333; }
+    .title-text { font-weight: bold; font-size: 16px; text-anchor: middle; }
+    .arrow { stroke: #888; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    .provider-box { fill: #e8f5e9; stroke: #81c784; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#888" />
+    </marker>
+  </defs>
+
+  <g transform="translate(30, 150)">
+    <rect width="180" height="100" fill="#f5f5f5" stroke="#ccc" class="box" />
+    <text x="90" y="40" class="text title-text">Python Code</text>
+    <text x="90" y="70" class="text" text-anchor="middle" font-family="monospace">model.invoke("...")</text>
+  </g>
+
+  <line x1="210" y1="200" x2="260" y2="200" class="arrow" />
+
+  <g transform="translate(270, 110)">
+    <rect width="220" height="180" fill="#ede7f6" stroke="#9575cd" class="box" />
+    <text x="110" y="40" class="text title-text" fill="#5e35b1">LangChain</text>
+    <text x="25" y="80" class="text">• Format Messages</text>
+    <text x="25" y="110" class="text">• Handle API Calls</text>
+    <text x="25" y="140" class="text">• Parse Responses</text>
+    <text x="25" y="170" class="text">• Manage Context</text>
+  </g>
+
+  <line x1="490" y1="180" x2="520" y2="100" class="arrow" /> <line x1="490" y1="200" x2="520" y2="170" class="arrow" /> <line x1="490" y1="220" x2="520" y2="260" class="arrow" /> <line x1="490" y1="240" x2="520" y2="350" class="arrow" /> <g transform="translate(530, 70)">
+    <rect width="160" height="60" class="box provider-box" />
+    <text x="80" y="35" class="text title-text">OpenAI / GPT</text>
+  </g>
+
+  <g transform="translate(530, 140)">
+    <rect width="160" height="60" class="box provider-box" />
+    <text x="80" y="35" class="text title-text">Google / Gemini</text>
+  </g>
+
+  <g transform="translate(530, 230)">
+    <rect width="160" height="60" class="box provider-box" />
+    <text x="80" y="35" class="text title-text">Anthropic / Claude</text>
+  </g>
+
+  <g transform="translate(530, 320)">
+    <rect width="160" height="60" class="box provider-box" />
+    <text x="80" y="35" class="text title-text">Meta / LLaMA</text>
+  </g>
+
+  <line x1="690" y1="100" x2="770" y2="180" class="arrow" /> <line x1="690" y1="170" x2="770" y2="190" class="arrow" /> <line x1="690" y1="260" x2="770" y2="210" class="arrow" /> <line x1="690" y1="350" x2="770" y2="230" class="arrow" /> <g transform="translate(780, 150)">
+    <rect width="180" height="100" fill="#fff3e0" stroke="#ffb74d" class="box" />
+    <text x="90" y="40" class="text title-text" fill="#e65100">AIMessage</text>
+    <text x="90" y="75" class="text" text-anchor="middle" font-size="12">response.content</text>
+  </g>
+
+  <text x="500" y="420" class="text" text-anchor="middle" font-style="italic" fill="#777">
+    LangChain acts as a unified interface to invoke multiple AI providers with the same code structure.
+  </text>
+</svg>
